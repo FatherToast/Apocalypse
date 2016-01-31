@@ -1,0 +1,16 @@
+[
+{
+  "modid": "Apocalypse",
+  "name": "§cApocalypse§r",
+  "description": "The longer you stay in the world, the harder the monsters get. The full moon empowers monsters, the rain hurts you, and thunder causes mobs to end up in strange places. Good luck!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://www.minecraftforum.net/topic/1153874-/",
+  "updateUrl": "",
+  "authorList": ["FatherToast"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

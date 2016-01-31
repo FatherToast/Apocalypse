@@ -1,0 +1,24 @@
+
+event.Apocalypse.sleepPenalty=The monsters grow impatient
+
+event.Apocalypse.fullMoon=Death lingers in the air, a bad moon rises
+
+tile.bed.Apocalypse.fullMoon=You may not rest during a full moon
+
+death.attack.Apocalypse.rain=%1$s was sprinkled to death
+death.attack.Apocalypse.rain.player=%1$s died from rain whilst trying to escape %2$s
+
+commands.Apocalypse.setWorldDifficulty.usage=/setWorldDifficulty <new difficulty>
+commands.Apocalypse.setWorldDifficulty.success=Set world difficulty to %d
+
+item.bucketHelm.name=Bucket Helmet
+
+entity.Apocalypse.Breecher.name=Breecher
+entity.Apocalypse.Grump.name=Grump
+entity.Apocalypse.Seeker.name=Seeker
+entity.Apocalypse.Ghost.name=Ghost
+entity.Apocalypse.Destroyer.name=Destroyer
+
+entity.Apocalypse.SeekerFireball.name=Seeker Fireball
+entity.Apocalypse.DestroyerFireball.name=Destroyer Fireball
+entity.Apocalypse.FishHook.name=Fish Hook

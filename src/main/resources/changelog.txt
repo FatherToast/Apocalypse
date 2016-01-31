@@ -1,0 +1,50 @@
+0.0.7
+    - Greatly weakened ghosts and increased their default numbers.
+    - Halved the default times before each full moon mob appears.
+    - Fixed rare crash related to enchantments.
+0.0.6
+    - Added ancient mobs (a feature removed from Special Mobs mixed with Deadly World bosses).
+    - Added equipment (weapons, armor, enchantments).
+    - Split properties into several config files now in the Apocalypse folder.
+    - Tweaked several defaults (notably, the time span has been changed to 40 from 48).
+    - All potion effects will be forced if required (instead of only regen on undead mobs).
+0.0.5
+    - Removed invisibility potion effect from possible effects.
+    - Reduced maximum strength potion effect amplifier from II to I.
+    - Difficulty now increases 20% faster while any player is not in the overworld.
+    - Returned difficulty increase per player at a reduced rate.
+    - Difficulty HUD now displays the rate if it is not 1x.
+    - Difficulty HUD should now fetch info from server immediately upon login.
+    - Fixed server crash bug.
+0.0.4
+    - Added new full moon mob: destroyer.
+    - Revised full moon spawning algorithm.
+    - Added ability to blacklist specific mobs from ignoring spawn restrictions during thunderstorms.
+    - Rain damage is now halved if you are wearing any helmet, but damages your helmet.
+    - Added new Bucket Helmet, completely prevents rain damage until it breaks.
+    - Redone difficulty level increase mechanics. No longer increases per player on servers by default.
+    - Tweaked all default attribute scalings to have a mix of flat and mult bonuses.
+    - "Accidentally" prevented peaceful mode from despawning most full moon mobs.
+    - Lowered base health for ghosts from 10 to 8 and grumps from 20 to 10.
+    - Raised minimum damage for ghosts from 0 to 1 and grumps from 0 to 2.
+    - Ghosts now apply gravity for 4 seconds instead of 3.
+0.0.3
+    - Fixed seeker crash bug.
+0.0.2
+    - Fixed texture paths to work in obfuscated environment.
+    - Fixed difficulty increases hitting all at once, instead of slowly increasing over time.
+    - Tweaked several defaults.
+      - Increased default difficulty increase from a cycle of 64 days to 48 days.
+    - Removed follow range modifier capability (aka lag mode).
+    - Cut breechers' follow range down to equal zombies', just in case. Upped spawn cap and default min breechers.
+    - Ghosts, grumps, and seekers now have unlimited target range.
+0.0.1
+    - World difficulty is now saved in the world and increments by the number of online players.
+    - Added /setWorldDifficulty <new difficulty> command.
+    - Added full moon seige event.
+      - Spawns new mobs: breecher, grump, seeker, and ghost.
+    - GUI is no longer in inventory and now has a configurable position.
+    - Each time-scaled bonus now has its own blacklist.
+    - Tweaked some properties' defaults.
+0.0.0
+    - Test release.
